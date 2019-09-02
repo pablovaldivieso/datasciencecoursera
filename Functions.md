@@ -11,12 +11,12 @@
     }
     Always save your file
 ## Part 1
-  Funtions are R objects of class "function"
-  Functions are "first class objects"
-  Functions can be nested 
-     ### Syntax 
+    Funtions are R objects of class "function"
+    Functions are "first class objects"
+    Functions can be nested 
+   ### Syntax 
       f <- fucntion (<arguments>) {
          % Do something 
       }
-  
+      
    
