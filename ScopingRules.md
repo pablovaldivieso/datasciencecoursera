@@ -1,2 +1,3 @@
 # Scoping Rules 
 ## Symbol Binding  
+ 
