@@ -10,13 +10,13 @@
 
 
 ## If - else
-if (<condition>) {
-	##
-}else if   -> another type of condition 
-	##
-}else      -> always at the end
-	##
-}			Note: else is not always neccesary 
+	if (<condition>) {
+		##					
+	}else if   -> another type of condition 
+		##
+	}else      -> always at the end
+		##
+	}			Note: else is not always neccesary 
 
 
 ## For Loops
