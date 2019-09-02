@@ -14,7 +14,7 @@
     Funtions are R objects of class "function"
     Functions are "first class objects"
     Functions can be nested 
-   ### Syntax 
+   #### Syntax 
       f <- fucntion (<arguments>) {
          % Do something 
       }
