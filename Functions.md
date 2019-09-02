@@ -8,5 +8,5 @@
         means[i] <- means(y[,i])        - assign the mean of each column
       }
       means                             - return vector of means
-  }
-   Always save your file
+    }
+    Always save your file
