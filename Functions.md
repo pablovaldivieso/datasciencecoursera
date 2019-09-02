@@ -14,9 +14,23 @@
     Funtions are R objects of class "function"
     Functions are "first class objects"
     Functions can be nested 
-   #### Syntax 
+   ### Syntax 
       f <- fucntion (<arguments>) {
          % Do something 
       }
+   ### Argument Matching 
+      Arguments can be matched positionally. The examples below will provide the same outcome 
       
+      mydata<- rnorm(100)
+      sd(mydata)  sd = standard deviation function
+      sd(x = mydata)
+      sd(x = mydata, na.rm=FALSE)
+      sd(na.rm = FALSE, x = mydata)
+      sd(na.rm = FALSA, mydata) 
+      
+      Functions arguments can be partially mathced
+        * Check for exact match for a named argument 
+        * check for a partial match
+        * check for a positional match
+        
    
