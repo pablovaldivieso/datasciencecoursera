@@ -1,12 +1,12 @@
 # CONTROL STRUCTURES
 
-if,else: testing  condition
-for: execute a loop for a fixed # of times 
-while
-repeat
-break 
-next
-return 
+*if,else: testing  condition
+*for: execute a loop for a fixed # of times 
+*while
+*repeat
+*break 
+*next
+*return 
 
 
 ## If - else
