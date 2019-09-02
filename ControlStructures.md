@@ -20,7 +20,7 @@
 
 
 ## For Loops
-	Used for terating over the elements of an object (list, vector, etc)
+	Used for iterating over the elements of an object (list, vector, etc)
 
 	for (i in 10){
 		print(i)		Takes i variable and in each iteration of the loop gives its values: 1,2,3...10
@@ -60,4 +60,8 @@
 				x0<-x1
 		}
 	}
+	
+	Next -> used to skip an interation of a loop
+	Return -> signal that a fucntion should exit and return a given value 
+	
 	
