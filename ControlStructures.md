@@ -1,4 +1,4 @@
-#CONTROL STRUCTURES
+# CONTROL STRUCTURES
 
 if,else: testing  condition
 for: execute a loop for a fixed # of times 
@@ -9,7 +9,7 @@ next
 return 
 
 
-##If - else
+## If - else
 if (<condition>) {
 	##
 }else if   -> another type of condition 
@@ -19,7 +19,7 @@ if (<condition>) {
 }			Note: else is not always neccesary 
 
 
-##For Loops
+## For Loops
 Used for terating over the elements of an object (list, vector, etc)
 
 for (i in 10){
@@ -39,7 +39,7 @@ x<- matrix(1:6, 2,4)    											2 by 3 matrix
 																												2		2 = 4
 																												2		3 = 6
 																												
-##While Loops
+## While Loops
 
 count <-0                   -> while loops test a condition
 	while(count<10){
@@ -47,7 +47,7 @@ count <-0                   -> while loops test a condition
 			count<-count+1        -> update value 
 	}
 	
-##Repeat, Next, Break
+## Repeat, Next, Break
 Repeat -> initiates an infinte loop, not commmon 
 break -> used to break the inifnity loop
 
