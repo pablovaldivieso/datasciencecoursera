@@ -11,7 +11,7 @@
     A function + an environemnt = a closure or function closure
     
     A free variale - > a symbol that hasn't been definied in an environment 
-    If the value of a symbol is not foun in the environment in which a function was defined, then the search is continued in the parent         environment
+    If the value of a symbol is not foun in the environment in which a function was defined, then the search is continued in the parent environment
 ## R Scoping Rules
     In R, you can have functions inside other functions
     Languages like C don't allow this
