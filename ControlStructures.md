@@ -31,7 +31,7 @@
 			for (j in seq_len(ncol(x))){		-> seq_len(ncol) = 1:3 -> 3 columns of matrix 
 				print(x[i,j])
 		}
-	} 																					i   j              Matrix 
+	} 				i   j              	     Matrix 
 	This loops as follows: 		1   1	= 1		1	3	5
 					1   2	= 3		2	4	6							
 					1   3	= 5																2   1	= 2					
