@@ -75,5 +75,35 @@ The arguments needs to be equal to the number of lists
 Vectorize function that doesn't allow for vector arguments.
 
 ## tapply
+  Is used to apply a function over subsets of a vector. 
   
+  ### syntax
+  
+  str(apply) 
+  function (X, INDEX, FUN = NULL, ..., simplify = TRUE)
+  * X is a vector 
+  * INDEX is a factor or a list of factors
+  * FUN is a function to be applied 
+  * ... contains other arguments to be passed FUN
+  * simplify, whether or not we should simplify the result 
+  
+## split 
+  Takes a vector or other objects and splits into groups determined by a factor or list of vectors
+  Not a loop fucntion 
+  
+  ### syntax 
+  strip(split)
+  function (x, f, drop = FALSE, ...) 
+  
+  * X is a vector (or list) or data frame
+  * f is a factor (or coerced to one) or a list of factors 
+  * drop indicates whether empty factors levels should be dropped 
+  
+  ### Example 
+  
+  x <-c(rnorm(10), runif(10), rnorm(10,1))
+  f <- gl(3,10)
+  split(x,f)
+  
+  lapply(split(x,f),mean) 
   
