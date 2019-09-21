@@ -26,7 +26,7 @@ Sample functions draws randomly from a specified set of (scalar) objects allwoin
 
 Example: 
 
- set.seed(1)
- sample(1:10, 4) 
- [1] 3 4 5 7
+set.seed(1)
+sample(1:10, 4) 
+[1] 3 4 5 7
 
